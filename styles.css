@@ -6,6 +6,8 @@ body{
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .barHolder{
@@ -60,12 +62,13 @@ img{
 }
 
 .container{
-    width: fit-content;
+    width: 100%;
     margin-top: 100px;
+
 }
 .innerContainer{
     display: flex;
-
+    justify-content: center;
 }
 
 .word {
